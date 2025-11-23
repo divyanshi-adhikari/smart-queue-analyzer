@@ -34,3 +34,24 @@ This tool is helpful in many real-life queue environments:
 2. Install the required library:
    ```bash
    pip install matplotlib
+3. Open project folder.
+4. Run the program: python
+   smart_queue_gui.py
+
+## How to Use
+
+- **Open the application.**
+- **Enter timestamps** in the format `HH:MM:SS` (one timestamp per line).
+- In the input box below, **enter the current queue number**.
+- Click **Analyze** to process the data.
+- After analysis, the app will display:
+  - **Average Service Time**
+  - **Estimated Waiting Time**
+  - **Queue Load Level** (Low / Medium / High)
+  - **Customer Flow Rating** (Very Fast / Normal / Slow)
+- The app will also generate two graphs:
+  - **Service Time Trend**
+  - **Estimated Total Wait Time**
+- You can modify timestamps or queue number anytime and click **Analyze** again.
+- Click **Clear** to reset all inputs.
+
